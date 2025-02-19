@@ -1,4 +1,5 @@
 
+import './lib/global-polyfill';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import { SocketProvider } from './context/SocketContext';
